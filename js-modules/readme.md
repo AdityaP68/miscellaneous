@@ -2,6 +2,20 @@
 
 Before ES6 module system was introduced, we needed to import all the js files into the main html form the to be loaded and be in scope for them to share there scope, and the order of the file import also matters, basically its the same thing as a variable being used before actually being declared.
 
+Therefore bundlers came into picture and fulfilled this role, ex. Pebpack, Parcel, ESBuild, Vite, etc.
+
+## Benefits of Module Bundlers
+
+Module bundlers offer several benefits over the pre-ES module era:
+
+- **Improved Dependency Management:** Module bundlers automatically resolve dependencies, eliminating the need for manual script tag ordering.
+
+- **Reduced Namespace Pollution:** Module bundlers encapsulate code within modules, preventing global scope pollution and conflicts.
+
+- **Optimized Code Delivery:** Module bundlers can optimize and bundle code, reducing HTTP requests and improving page load times.
+
+- **Enhanced Development Workflow:** Module bundlers provide a streamlined development workflow, simplifying code organization and management.
+
 
 
 ## Dependency Management
@@ -32,14 +46,4 @@ Webpack is a popular module bundler that offers several advantages:
 
 - **Plugin System:** Webpack's powerful plugin system extends its functionality. Plugins can perform tasks like code minification, environment-specific configuration, and more.
 
-## Benefits of Module Bundlers
 
-Module bundlers offer several benefits over the pre-ES module era:
-
-- **Improved Dependency Management:** Module bundlers automatically resolve dependencies, eliminating the need for manual script tag ordering.
-
-- **Reduced Namespace Pollution:** Module bundlers encapsulate code within modules, preventing global scope pollution and conflicts.
-
-- **Optimized Code Delivery:** Module bundlers can optimize and bundle code, reducing HTTP requests and improving page load times.
-
-- **Enhanced Development Workflow:** Module bundlers provide a streamlined development workflow, simplifying code organization and management.
