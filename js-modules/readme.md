@@ -4,6 +4,33 @@ Before ES6 module system was introduced, we needed to import all the js files in
 
 Therefore bundlers came into picture and fulfilled this role, ex. Pebpack, Parcel, ESBuild, Vite, etc.
 
+code under ES6 module system
+```
+<body>
+  <!-- Use type="module" to indicate that this script is an ES module -->
+  <script type="module" src="main.js"></script>
+</body>
+```
+
+```js
+
+// main.js
+import { add } from './utils.js';
+
+const result = add(5, 3);
+console.log(result);
+
+```
+
+```js
+
+// utils.js
+export function add(a, b) {
+  return a + b;
+}
+
+```
+
 ## Benefits of Module Bundlers
 
 Module bundlers offer several benefits over the pre-ES module era:
