@@ -1,6 +1,8 @@
-# Pre-ES Module Era Code
+## Pre-ES Module Era Code
 
-Before the introduction of ES modules, JavaScript developers encountered various challenges in managing and loading code:
+Before ES6 module system was introduced, we needed to import all the js files into the main html form the to be loaded and be in scope for them to share there scope, and the order of the file import also matters, basically its the same thing as a variable being used before actually being declared.
+
+
 
 ## Dependency Management
 
