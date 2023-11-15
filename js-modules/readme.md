@@ -1,16 +1,16 @@
 # Pre-ES Module Era Code
 
-Prior to the introduction of ES modules, JavaScript developers faced several challenges in managing and loading code:
+Before the introduction of ES modules, JavaScript developers encountered various challenges in managing and loading code:
 
-### Dependency Management
+## Dependency Management
 
-Manually managing dependencies between JavaScript files was error-prone and required careful ordering of script tags in HTML.
+Manually handling dependencies between JavaScript files was error-prone and necessitated careful ordering of script tags in HTML.
 
-### Global Scope and Namespace Pollution
+## Global Scope and Namespace Pollution
 
-Without a native module system, developers relied on patterns like IIFE (Immediately Invoked Function Expression) and namespacing to avoid polluting the global namespace. However, these approaches had limitations and became cumbersome in large projects.
+Lacking a native module system, developers relied on patterns like IIFE (Immediately Invoked Function Expression) and namespacing to prevent global namespace pollution. However, these approaches had limitations and became cumbersome in large projects.
 
-### Script Loading Overhead
+## Script Loading Overhead
 
 Loading numerous script files individually resulted in additional HTTP requests, leading to slower page load times, especially for larger applications.
 
