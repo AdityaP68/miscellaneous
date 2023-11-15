@@ -8,29 +8,13 @@ Therefore bundlers came into picture and fulfilled this role, ex. Pebpack, Parce
 
 Module bundlers offer several benefits over the pre-ES module era:
 
-- **Improved Dependency Management:** Module bundlers automatically resolve dependencies, eliminating the need for manual script tag ordering.
+- **Improved Dependency Management:** Manually handling dependencies between JavaScript files was error-prone and necessitated careful ordering of script tags in HTML. Module bundlers automatically resolve dependencies, eliminating the need for manual script tag ordering.
 
-- **Reduced Namespace Pollution:** Module bundlers encapsulate code within modules, preventing global scope pollution and conflicts.
+- **Reduced Namespace Pollution:** Lacking a native module system, developers relied on patterns like IIFE (Immediately Invoked Function Expression) and namespacing to prevent global namespace pollution. However, these approaches had limitations and became cumbersome in large projects. Module bundlers encapsulate code within modules, preventing global scope pollution and conflicts.
 
-- **Optimized Code Delivery:** Module bundlers can optimize and bundle code, reducing HTTP requests and improving page load times.
+- **Optimized Code Delivery:** Loading numerous script files individually resulted in additional HTTP requests, leading to slower page load times, especially for larger applications. Module bundlers can optimize and bundle code, reducing HTTP requests and improving page load times.
 
 - **Enhanced Development Workflow:** Module bundlers provide a streamlined development workflow, simplifying code organization and management.
-
-
-
-## Dependency Management
-
-- Manually handling dependencies between JavaScript files was error-prone and necessitated careful ordering of script tags in HTML.
-
-## Global Scope and Namespace Pollution
-
-- Lacking a native module system, developers relied on patterns like IIFE (Immediately Invoked Function Expression) and namespacing to prevent global namespace pollution. However, these approaches had limitations and became cumbersome in large projects.
-
-## Script Loading Overhead
-
-- Loading numerous script files individually resulted in additional HTTP requests, leading to slower page load times, especially for larger applications.
-
-To address these challenges, module bundlers like Webpack, esbuild, Parcel, and Vite emerged. These tools provide several key features:
 
 ## Webpack Overview
 
