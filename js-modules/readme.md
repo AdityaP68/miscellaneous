@@ -4,6 +4,33 @@ Before ES6 module system was introduced, we needed to import all the js files in
 
 Therefore bundlers came into picture and fulfilled this role, ex. Pebpack, Parcel, ESBuild, Vite, etc.
 
+#### Code before introduction of any module system:
+```html
+
+<body>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+
+```
+
+```js
+
+// main.js
+const result = add(5, 3);
+console.log(result);
+
+```
+
+```js
+
+// utils.js
+function add(a, b) {
+    return a + b;
+}
+  
+```
+
 #### Code under ES6 module system:
 ```html
 <body>
